@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enhanced Ad Blocker Options</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    h1 { font-size: 24px; }
+    label { display: block; margin-bottom: 10px; }
+    button { padding: 8px 16px; }
+  </style>
+</head>
+<body>
+  <h1>Enhanced Ad Blocker Settings</h1>
+  <label>
+    <input type="checkbox" id="toggleAdBlock" />
+    Enable Ad Blocking
+  </label>
+  <h2>Default Blocking Rules</h2>
+  <div>
+    <label>
+      <input type="checkbox" class="ruleCheckbox" data-rule-id="1" checked />
+      Block Google Ad Scripts (pagead2.googlesyndication.com)
+    </label>
+    <label>
+      <input type="checkbox" class="ruleCheckbox" data-rule-id="2" checked />
+      Block DoubleClick (doubleclick.net)
+    </label>
+  </div>
+  <button id="saveOptions">Save Settings</button>
+  <script src="rules.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

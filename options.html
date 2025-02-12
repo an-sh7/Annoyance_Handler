@@ -1,31 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Enhanced Ad Blocker Options</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 20px; }
-    label { display: block; margin-bottom: 10px; }
-    button { padding: 8px 16px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options</title>
 </head>
 <body>
-  <h1>Ad Blocker Options</h1>
-  <label>
-    <input type="checkbox" id="globalToggle" />
-    Enable Ad Blocker
-  </label>
-  <h2>Default Rules</h2>
-  <label>
-    <input type="checkbox" class="ruleCheckbox" data-rule-id="1" />
-    Block Google Ad Scripts (pagead2.googlesyndication.com)
-  </label>
-  <label>
-    <input type="checkbox" class="ruleCheckbox" data-rule-id="2" />
-    Block DoubleClick (doubleclick.net)
-  </label>
-  <button id="saveBtn">Save Settings</button>
-  <!-- Load external options.js -->
-  <script src="options.js"></script>
+    <h2>Ad Blocker Settings</h2>
+    <label>
+        <input type="checkbox" id="enableBlocking"> Enable Ad Blocking
+    </label>
+    <button id="saveSettings">Save</button>
+    <script src="options.js"></script>
 </body>
 </html>

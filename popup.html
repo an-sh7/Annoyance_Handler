@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Enhanced Ad Blocker Popup</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 10px; width: 200px; }
-    h2 { font-size: 16px; }
-    button { padding: 5px 10px; margin-top: 10px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Blocker</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h2>Ad Blocker</h2>
-  <p>Status: <span id="status">Loading...</span></p>
-  <button id="toggleBtn">Toggle Ad Blocker</button>
-  <script type="module" src="popup.js"></script>
+    <div class="container">
+        <h2>Ad Blocker</h2>
+        <label class="switch">
+            <input type="checkbox" id="toggleBlocking">
+            <span class="slider"></span>
+        </label>
+        <p id="statusText">Blocking: ON</p>
+    </div>
+    <script src="popup.js"></script>
 </body>
 </html>

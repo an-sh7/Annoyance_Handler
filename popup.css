@@ -1,0 +1,79 @@
+/* Global box-sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Container styling with dynamic background based on ad blocker state */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  /* Toggle button styling */
+  .toggle {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .toggle:hover {
+    background-color: #c82333;
+    transform: scale(1.1);
+  }
+  
+  /* Options button styling */
+  .options {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .options:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+  }
+  
+  .options:active {
+    transform: scale(0.98);
+  }
+  
+  /* Icon styling for options button */
+  .options .icon {
+    margin-right: 6px;
+    font-size: 16px;
+  }
+  
+  /* Status text that reflects the state */
+  .status {
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+  }
+  
+  .status.enabled {
+    color: #28a745; /* green for enabled */
+  }
+  
+  .status.disabled {
+    color: #dc3545; /* red for disabled */
+  }
+  

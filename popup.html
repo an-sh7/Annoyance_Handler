@@ -3,16 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Enhanced Ad Blocker Popup</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 10px; width: 200px; }
-    h2 { font-size: 16px; }
-    button { padding: 5px 10px; margin-top: 10px; }
-  </style>
+  <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 <body>
   <h2>Ad Blocker</h2>
   <p>Status: <span id="status">Loading...</span></p>
-  <button id="toggleBtn">Toggle Ad Blocker</button>
+  <button id="toggleBtn" class="toggle">Toggle Ad Blocker</button>
+  <button id="optionsBtn" class="options">Options</button>
   <script type="module" src="popup.js"></script>
 </body>
 </html>

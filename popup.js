@@ -11,11 +11,11 @@ function updateUI(enabled) {
   // Change colors based on state
   if (enabled) {
     // When enabled, use a green background
-    toggleBtn.style.backgroundColor = "#28a745";
+    toggleBtn.style.backgroundColor = "#dc3545";
     toggleBtn.style.color = "#fff";
   } else {
     // When disabled, use a red background
-    toggleBtn.style.backgroundColor = "#dc3545";
+    toggleBtn.style.backgroundColor = "#28a745";
     toggleBtn.style.color = "#fff";
   }
 }

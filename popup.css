@@ -68,12 +68,5 @@
     margin-bottom: 10px;
     transition: color 0.3s;
   }
-  
-  .status.enabled {
-    color: #28a745; /* green for enabled */
-  }
-  
-  .status.disabled {
-    color: #dc3545; /* red for disabled */
-  }
+
   

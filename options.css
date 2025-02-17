@@ -1,0 +1,62 @@
+/* options.css */
+
+/* Apply a light background and consistent font */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Center the main container */
+  .options-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Headings */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  /* Style checkboxes with a little spacing */
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Full-width button styling */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+    transform: scale(1.02);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  

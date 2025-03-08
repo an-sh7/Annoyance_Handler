@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Annoyance Handler",
   "version": "2.3",
-  "description": "A feature-rich ad blocker with dynamic rule management, keyboard shortcut toggle, and an options page.",
+  "description": "A feature-rich content blocker with dynamic rule management, keyboard shortcut toggle, and an options page.",
   "permissions": [
     "declarativeNetRequest",
     "storage",
